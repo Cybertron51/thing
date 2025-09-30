@@ -1,6 +1,3 @@
-# ogose
-cyberpatriot omegalul
-
 ## branches
 - main - ubuntu 18
 - debian - debian 10
