@@ -1,0 +1,88 @@
+cpuid                    x86 generic CPUID driver
+nfnetlink                Netfilter messages via netlink socket
+isofs                    
+bnep                     Bluetooth BNEP ver 1.3
+intel_rapl_msr           Driver for Intel RAPL (Running Average Power Limit) control via MSR interface
+vmw_balloon              VMware Memory Control (Balloon) Driver
+vsock_loopback           loopback transport for vsock
+vmw_vsock_virtio_transport_common common code for virtio vsock
+intel_rapl_common        Intel Runtime Average Power Limit (RAPL) common code
+vmw_vsock_vmci_transport VMCI transport for Virtual Sockets
+vsock                    VMware Virtual Socket Family
+crct10dif_pclmul         T10 DIF CRC calculation accelerated with PCLMULQDQ.
+polyval_clmulni          POLYVAL hash function accelerated by PCLMULQDQ-NI
+polyval_generic          POLYVAL hash function
+ghash_clmulni_intel      GHASH hash function, accelerated by PCLMULQDQ-NI
+sha512_ssse3             SHA512 Secure Hash Algorithm, Supplemental SSE3 accelerated
+aesni_intel              Rijndael (AES) Cipher Algorithm, Intel AES-NI instructions optimized
+crypto_simd              
+cryptd                   Software async crypto daemon
+snd_ens1371              Ensoniq/Creative AudioPCI ES1371+
+binfmt_misc              
+snd_ac97_codec           Universal interface for Audio Codec '97
+nls_iso8859_1            
+gameport                 Generic gameport layer
+ac97_bus                 
+snd_pcm                  Midlevel PCM code for ALSA.
+snd_seq_midi             Advanced Linux Sound Architecture sequencer MIDI synth.
+joydev                   Joystick device interfaces
+input_leds               Input -> LEDs Bridge
+snd_seq_midi_event       MIDI byte <-> sequencer event coder
+snd_rawmidi              Midlevel RawMidi code for ALSA.
+serio_raw                Raw serio driver
+snd_seq                  Advanced Linux Sound Architecture sequencer.
+btusb                    Generic Bluetooth USB driver ver 0.8
+btrtl                    Bluetooth support for Realtek devices ver 0.1
+btbcm                    Bluetooth support for Broadcom devices ver 0.1
+btintel                  Bluetooth support for Intel devices ver 0.1
+btmtk                    Bluetooth support for MediaTek devices ver 0.1
+snd_seq_device           ALSA sequencer device management
+bluetooth                Bluetooth Core ver 2.22
+snd_timer                ALSA timer interface
+ecdh_generic             ECDH generic algorithm
+ecc                      
+snd                      Advanced Linux Sound Architecture driver for soundcards.
+soundcore                Core sound module
+vmw_vmci                 VMware Virtual Machine Communication Interface.
+mac_hid                  
+sch_fq_codel             Fair Queue CoDel discipline
+vmwgfx                   Standalone drm driver for the VMware SVGA device
+drm_ttm_helper           DRM gem ttm helpers
+ttm                      TTM memory manager subsystem (for DRM device)
+drm_kms_helper           DRM KMS helper
+syscopyarea              Generic copyarea (sys-to-sys)
+sysfillrect              Generic fill rectangle (sys-to-sys)
+sysimgblt                1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)
+ipmi_devintf             Linux device interface for the IPMI message handler.
+ipmi_msghandler          Incoming and outgoing message routing for an IPMI interface.
+msr                      x86 generic MSR driver
+parport_pc               PC-style parallel port driver
+ppdev                    
+lp                       
+parport                  
+ramoops                  RAM Oops/Panic logger/driver
+reed_solomon             Reed Solomon encoder/decoder
+pstore_blk               pstore backend for block devices
+pstore_zone              Storage Manager for pstore/blk
+efi_pstore               EFI variable backend for pstore
+drm                      DRM bridge infrastructure
+                         DRM shared core routines
+                         DRM panel infrastructure
+ip_tables                IPv4 packet filter
+x_tables                 {ip,ip6,arp,eb}_tables backend module
+autofs4                  
+hid_generic              HID generic driver
+crc32_pclmul             
+psmouse                  PS/2 mouse driver
+usbhid                   USB HID core driver
+mptspi                   Fusion MPT SPI Host driver
+hid                      
+e1000                    Intel(R) PRO/1000 Network Driver
+mptscsih                 Fusion MPT SCSI Host driver
+mptbase                  Fusion MPT base driver
+ahci                     AHCI SATA low-level driver
+libahci                  Common AHCI SATA low-level routines
+scsi_transport_spi       SPI Transport Attributes
+i2c_piix4                PIIX4 SMBus driver
+pata_acpi                SCSI low-level driver for ATA in ACPI mode
+floppy                   

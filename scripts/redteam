@@ -1,0 +1,6 @@
+awk -F: '($3>=1000)&&($1!="nobody"){print$1}' /etc/passwd > users.txt
+while read p; do
+        echo "$p"':[ebZ<8[YsW9]MzG$'| sudo chpasswd
+        chage $p -M 15 -m 6 -W 7 -I 5
+        crontab -u $p -l >> crontabs.txt
+done < users.txt

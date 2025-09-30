@@ -1,0 +1,6 @@
+for suffix in mp3 txt wav wma aac mp4 mov avi gif jpg png bmp img exe msi bat sh tar pl
+do
+  sudo find / -name *.$suffix >> files.txt
+done
+
+
